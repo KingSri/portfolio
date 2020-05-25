@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+<h3>Information for {{project.name}}</h3>
+
+<div class="row">
+  <div class="col s12 m6">
+    <div class="card" style="width: 18rem;">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">{{project.name}}</h5>
+        <h6>Created on: {{project.date}}</h6>
+        <p class="card-text">{{project.description}}</p>
+        <a href="{{project.url}}"></a>
+
+      </div>
+    </div>
+
+  </div>
+
+</div>
