@@ -26,7 +26,7 @@ My process was to first sketch out my wireframes, ie how I wanted the site to lo
 
 Following this, I then started to work on backend, switching to front end. It took me many iterations, but eventually I settled on a design similar to one of my more recent projects, Dekigoto. MaterializeCSS was used heavily for the aesthetic appeal, as I had experience using it previously.
 
-![CodeSnippet](https://imgur.com/xj6X1DY.jpg)
+![CodeSnippet](https://imgur.com/S84loPz)
 While not earthshattering, I learned more about box modeling and how to manipulate it.
 
 
