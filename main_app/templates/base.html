@@ -11,15 +11,21 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
   <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!-- JS -->
+  <script src="https://kit.fontawesome.com/84f6cf0a4d.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script type="text/javascript" href="{% static 'js/scripts.js'%}">
+
+  </script>
 </head>
 
 <body>
 
   <nav>
-  <div class="nav-wrapper">
+  <div class="nav-wrapper brown darken-3">
     <a href="{% url 'home' %}" class="brand-logo center">Srirang Subramanian</a>
-    <ul id="nav-mobile" class="left hide-on-med-and-down">
-      <li><a href="{% url 'index' %}">Contact</a></a></li>
+    <ul id="nav-mobile" class="right hide-on-med-and-down">
       <li><a href="{% url 'index' %}">Projects</a></li>
     </ul>
   </div>
@@ -31,7 +37,10 @@
     {% block content %}
     {% endblock %}
   </main>
-
+  <footer class="page-footer brown darken-3">
+        <div class="center">All Rights Reserved, &copy; Sri</div>
+    </footer>
 
 </body>
+
 </html>
