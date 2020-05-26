@@ -7,6 +7,9 @@ from .forms import ProjectForm
 def home(request):
     return render(request, 'home.html')
 
+def resume(request):
+    return render(request, 'resume.html')
+
 def index(request):
     project = Project.objects.all()
     return render(request, 'project/index.html', {'project': project})
