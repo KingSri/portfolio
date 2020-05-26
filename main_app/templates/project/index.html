@@ -5,7 +5,93 @@
 
 <h3>Projects created:</h3>
 
-{% for project in project %}
+
+<div class="row">
+
+    <div class="col s12 m6">
+
+      <div class="card red hoverable">
+        <div class="card-image">
+          <img src="{% static "blackjack.png" %}">
+          <span class="green-text text-darken-5 card-title">BlackJack!</span>
+        </div>
+        <div class="card-content">
+          <p><b>Created on:</b> March 6, 2020</p>
+          <p>
+            Utilizing Javascript and HTML/CSS to create a working blackjack game. This was the first coding project I worked on.
+            Players have the option to stand, bet or fold their cards, with computer action based off of player action. Once a player hits zero, the game is over.
+            </p>
+        </div>
+        <div class="card-action">
+          <a href="https://github.com/KingSri/blackJack_game" class="pulse">Learn more!</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col s12 m6">
+      <div class="card green hoverable">
+        <div class="card-image">
+          <img src="{% static "Covid19.png" %}">
+          <span class="red-text text-darken-5 card-title">COVID19-Resources</span>
+        </div>
+        <div class="card-content">
+          <p><b>Created on:</b> March 24, 2020</p>
+          <p>A joint venture with fellow classmate Monica Tadeo, this project sought to combine front end technologies with backend technologies,
+            express and mongoose. The project's theme was based on the 2020 Coronavirus pandemic,
+            with the site focus being on creating a web application that could help users create a wishlist for
+            hot commodities such as toilet paper and hand sanitizer.</p>
+        </div>
+        <div class="card-action">
+          <a href="https://git.generalassemb.ly/KingSri/COVID-19-Resources-Project" class="pulse">Learn more!</a>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="col s12 m6">
+      <div class="card brown hoverable">
+        <div class="card-image">
+          <img src="{% static "wayfarer.png" %}">
+          <span class="grey-text text-lighten-3 card-title">Project Wayfarer</span>
+        </div>
+        <div class="card-content">
+          <p><b>Created on:</b> April 23, 2020</p>
+          <p>A joint venture with fellow classmates Jimmy Chen, Laura Sack and Seanny Phoenix this project aimed to introduce and incorporate React in a full stack application.
+          The project has full functionality, with users allowed to create, read, update, and destroy comments on cities they have visited. Users can also update locations from their profile page.</p>
+        </div>
+        <div class="card-action">
+          <a href="https://github.com/SeannyPhoenix/wayfarer-api" class="pulse">Learn more!</a>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="col s12 m6">
+      <div class="card black hoverable">
+        <div class="card-image">
+          <img src="{% static "dekigoto.png" %}">
+          <span class="red-text text-darken-5 card-title">Dekigoto</span>
+        </div>
+        <div class="card-content">
+          <p class="white-text"><b>Created on:</b> May 8, 2020</p>
+          <p class="white-text">My final project for the SEI-09 Software Engineering Immersive taken at General Assembly-San Francisco, the goal of this project was to become more familiar with django and front end work, such as HTML and CSS. The project allows a user to create and upload an event with the option to add a date, upload an image, and like or dislike existing events.
+            Users experience customized layouts once logged in and can also leave comments/view existing comments from other users.</p>
+        </div>
+        <div class="card-action">
+          <a href="https://github.com/KingSri/EventDisplay" class="pulse">Learn more!</a>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+  </div>
+
+
+
+<!-- {% for project in project %}
 <div class="row">
     <div class="col s12 m7">
       <div class="card grey">
@@ -22,6 +108,6 @@
       </div>
     </div>
     {% endfor %}
-  </div>
+  </div> -->
 
 {% endblock %}
