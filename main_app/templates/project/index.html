@@ -7,18 +7,21 @@
 
 {% for project in project %}
 <div class="row">
-  <div class="col s4 m4">
-    <div class="card" style="width: 18rem;">
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">{{project.name}}</h5>
-        <p class="card-text">Learn more!</p>
-        <p class="card-text">Created on {{project.date}}</p>
-        <a href="{% url 'detail' project.id %}" class="btn btn-primary">Details</a>
+    <div class="col s12 m7">
+      <div class="card grey">
+        <div class="card-image">
+          <img src="{{project.photo.url}}">
+          <span class="red-text text-darken-5 card-title">{{project.name}}</span>
+        </div>
+        <div class="card-content">
+          <p>Created on {{project.date}}</p>
+        </div>
+        <div class="card-action">
+          <a href="{% url 'detail' project.id %}">Learn more!</a>
+        </div>
       </div>
     </div>
+    {% endfor %}
   </div>
-  {% endfor %}
-</div>
 
 {% endblock %}

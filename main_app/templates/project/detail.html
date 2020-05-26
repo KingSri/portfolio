@@ -4,21 +4,32 @@
 
 <h3>Information for {{project.name}}</h3>
 
-<div class="row">
-  <div class="col s12 m6">
-    <div class="card" style="width: 18rem;">
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">{{project.name}}</h5>
-        <h6>Created on: {{project.date}}</h6>
-        <a href="{{project.url}}">Github URL</a>
 
+
+<div class="row">
+
+  <div class="col s12 m6">
+    <div class="card grey">
+      <div class="card-image">
+        <img src="{{project.photo.url}}">
+        <span class="red-text text-darken-5 card-title">{{project.name}}</span>
+      </div>
+      <div class="card-content">
+        <h6>Created on {{project.date}}</h6>
+      </div>
+      <div class="card-action">
+        <a href="{{project.url}}">Github URL</a>
       </div>
     </div>
-
   </div>
+
   <div class="col s12 m6">
-    <p class="card-text">{{project.description}}</p>
+    <blockquote><i>
+      <h5>{{project.description}}</h5>
+    </i>
+
+    </blockquote>
+
   </div>
 
 </div>
