@@ -18,9 +18,10 @@ Check out my portfolio!
 5. Materialize
 
 ## Wireframes/Process:
-![Wireframe 1](https://imgur.com/xj6X1DY.jpg)
+![Wireframe 1](https://imgur.com/cnvjCbb.jpg)
 ![Wireframe 2](https://imgur.com/gVis9mx.jpg)
-![Wireframe 3](https://imgur.com/vT3EzaN.jpg)
+![Wireframe 3](https://imgur.com/tZVrdCq.jpg)
+![Wireframe 4](https://imgur.com/VoMCsfd.jpg)
 
 My process was to first sketch out my wireframes, ie how I wanted the site to look. I wanted to keep it simple, yet visually pleasing.
 
