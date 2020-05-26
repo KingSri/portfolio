@@ -1,1 +1,1 @@
-web: gunicorn sricalendar.wsgi
+web: gunicorn portfolio.wsgi
