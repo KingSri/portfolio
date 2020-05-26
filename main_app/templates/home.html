@@ -5,19 +5,58 @@
 
 
 <div id='container' style="width:100%">
+
+
+  <!-- Left side of page -->
   <div id="left" style="float:left; width:30%;">
-    <h3>Welcome, I'm Srirang.</h3>
-    <img src="https://picsum.photos/200" alt="{% static 'github.jpg'%}">
-    <h6>
+  <h4 class="center">Welcome!</h4>
+  <div class="col s12 m6">
+    <div class="card red">
+      <div class="card-image">
+        <img src="{% static "Hipster.jpg" %}" alt= "Profile Picture">
+        <span class="card-title">Srirang Subramanian</span>
+      </div>
+      <div class="card-content">
+        <ul>
+          <li>
+            <b>Languages and Frameworks:</b> JavaScript, Python, jQuery, Node, Express, AJAX, HTML, CSS, Bootstrap, MaterializeCSS, LaTex, MatLab
+          </li>
+          <li>
+            <b>Management & Deployment:</b> Git, Github, Heroku, Command Line
+          </li>
+          <li>
+            <b>Databases:</b> PostgreSQL | MongoDB
+          </li>
+          <li>
+            <b>Other Skills:</b> Creo, Trello
+            </li>
+          <li>
+            <b>Methodologies:</b> Object Oriented Programming | Authentication | User Stories | ERDs | Wireframing | Responsive Design
+          </li>
+        </ul>
 
+      </div>
+    </div>
+  </div>
 
-    </h6>
 
 
   </div>
 
+
+
+
+<!-- Right side of page -->
   <div id='right' style='float:right; width:50%;'>
-    <h3 class="center">Contact Me:</h3>
+    <h3 class="center">About Me:</h3>
+
+    <div class="row">
+      <blockquote>
+        <h6><i>With a background in Biological Engineering and a current full stack developer, I am interested in utilizing different
+          technologies to solve human problems. From managing multidisciplinary research projects to developing code in
+          team environments, I’m fascinated in resolving problems from unique perspectives. Nice to meet you!</i></h6>
+      </blockquote>
+      </div>
 
     <div class="row">
       <!-- GitHub -->
@@ -56,7 +95,7 @@
     <div class="col s12 m6">
       <div class="card grey darken-1 hoverable">
         <div class="card-content white-text">
-          <span class="card-title"><i class="fas fa-envelope"></i>  Email</span>
+          <span class="card-title"><i class="fas fa-envelope"> Email</i>  </span>
           <p>Prefer to get in touch with me directly? Send me an email, and I will get back to you as soon as possible. </p>
         </div>
         <div class="card-action">
@@ -69,8 +108,8 @@
     <div class="col s12 m6">
       <div class="card orange darken-1 hoverable">
         <div class="card-content white-text">
-          <span class="card-title"><i class="fas fa-file"></i>  Resume</span>
-          <p>This is a list of my professional experience as of May 26, 2020. I'm always looking for opportunities. </p>
+          <span class="card-title"><i class="fas fa-file"> Resume</i>  </span>
+          <p>This is a list of my professional experiences as of May 26, 2020. I'm always looking for opportunities. </p>
         </div>
         <div class="card-action">
           <a href="{% url 'resume' %}">Resume</a>
@@ -80,6 +119,7 @@
 
 
   </div>
+
 
 
 
